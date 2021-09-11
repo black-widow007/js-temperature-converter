@@ -52,9 +52,9 @@ function kelvinToCelciusAndFahrenheit() {
 
 //create function to attach event listner for when user types input, call the functions
 function main() {
-celciusInput.addEventListener('input', celciusToFahrenheitAndKelvin);
-fahrenheitInput.addEventListener('input', fahrenheitToCelciusAndKelvin);
-kelvinInput.addEventListener('input', kelvinToCelciusAndFahrenheit);
+    celciusInput.addEventListener('input', celciusToFahrenheitAndKelvin);
+    fahrenheitInput.addEventListener('input', fahrenheitToCelciusAndKelvin);
+    kelvinInput.addEventListener('input', kelvinToCelciusAndFahrenheit);
 }
 
 //call main function
